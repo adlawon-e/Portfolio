@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adlawon - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-flex">
+        <h1 class="logo">ADLAWON'S PORTFOLIO</h1>
+        <nav>
+          <ul class="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-flex">
+          <figure class="profile">
+            <img src="images/profile.jpg" alt="Portrait of Estrelle" />
+            <figcaption>Based in Butuan City, PH</figcaption>
+          </figure>
+          <div class="hero-text">
+            <h2 class="hero-title">Hi, I'm <span>Estrelle Mae Adlawon 💕</span></h2>
+            <p class="lead">I love crafting cute and simple web designs that feel human and friendly.</p>
+            <a href="#projects" class="btn">✨ See My Work</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I'm a beginner web developer who enjoys creating clean and aesthetic web pages.  
+            <br>I focus on <strong>HTML/CSS</strong>, responsive design, and user-friendly layouts.  
+          </p>
+          <p>
+            Currently learning step by step, and building small projects to practice my skills.  
+            <br>You can reach me via <a href="#contact">email</a> or check my work on  
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="cards">
+            <article class="card">
+              <img src="images/projecta.png" alt="Project A" />
+              <div class="card-body">
+                <h3>Project A</h3>
+                <p>A Retail Product Management System.</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="images/projectb.png" alt="Project B" />
+              <div class="card-body">
+                <h3>Project B</h3>
+                <p>Healthcare appointment system.</p>  
+              </div>
+            </article>
+            <article class="card">
+              <img src="images/projectc.png" alt="Project C" />
+              <div class="card-body">
+                <h3>Project C</h3>
+                <p>An application integration.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul class="chips">
+            <li>🌸 HTML5</li>
+            <li>🎀 CSS3</li>
+            <li>📱 Responsive Design</li>
+            <li>💻 Git & GitHub</li>
+            <li>✨ Accessibility</li>
+          </ul>
+        </div>
+      </section>
+
+        <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-card">
+        <h2>Contact</h2>
+        <p>Let's connect 💌 — send me a message below:</p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn">💖 Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <p>Email: <a href="mailto:aestrellemae@gmail.com">aestrellemae@gmail.com</a></p>
+          <p>Location: Butuan City, Philippines</p>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span id="year">2025</span> Adlawon E &middot; Built with HTML & CSS
+    </footer>
+  </body>
+</html>
